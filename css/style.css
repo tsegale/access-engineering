@@ -52,9 +52,10 @@ nav {
   text-decoration: none;
 }
 .nav-logo-img {
-  height: 44px;
+  height: 62px;
   width: auto;
   flex-shrink: 0;
+  filter: drop-shadow(0 0 6px rgba(36, 104, 204, 0.4));
 }
 .nav-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .nav-logo-text .top {
@@ -814,9 +815,10 @@ footer {
 .footer-brand { }
 .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; text-decoration: none; }
 .footer-logo-img {
-  height: 44px;
+  height: 64px;
   width: auto;
   flex-shrink: 0;
+  filter: drop-shadow(0 0 6px rgba(36, 104, 204, 0.4));
 }
 .footer-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .footer-logo-text .top {
