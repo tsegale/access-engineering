@@ -51,15 +51,9 @@ nav {
   gap: 12px;
   text-decoration: none;
 }
-.nav-logo-hex {
-  width: 40px; height: 40px;
-  background: var(--royal);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-size: 17px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+.nav-logo-img {
+  height: 44px;
+  width: auto;
   flex-shrink: 0;
 }
 .nav-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
@@ -819,11 +813,9 @@ footer {
 }
 .footer-brand { }
 .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; text-decoration: none; }
-.footer-logo-hex {
-  width: 44px; height: 44px; background: var(--royal);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--white); font-size: 18px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+.footer-logo-img {
+  height: 44px;
+  width: auto;
   flex-shrink: 0;
 }
 .footer-logo-text { display: flex; flex-direction: column; line-height: 1.1; }
