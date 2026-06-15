@@ -368,6 +368,7 @@ section { padding: 100px 60px; }
 /* ── MANAGEMENT ── */
 .management-section { background: var(--navy-mid); }
 .management-grid { display: grid; grid-template-columns: 280px 1fr; gap: 60px; margin-top: 52px; align-items: start; }
+.mgmt-cards { display: flex; flex-direction: column; gap: 24px; }
 .mgmt-card {
   background: var(--navy); border: 1px solid var(--border);
   border-top: 3px solid var(--royal);
