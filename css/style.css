@@ -19,7 +19,7 @@
 }
 
 /* ── RESET ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; min-width: 0; }
 html { scroll-behavior: smooth; }
 body {
   font-family: "Barlow", sans-serif;
@@ -153,6 +153,7 @@ section { padding: 100px 60px; }
   font-weight: 800; font-size: clamp(34px, 5vw, 56px);
   text-transform: uppercase; color: #1A2E44;
   line-height: 1; letter-spacing: -0.5px;
+  overflow-wrap: break-word;
 }
 
 /* ── PAGE HERO (interior pages) ── */
@@ -666,7 +667,7 @@ section { padding: 100px 60px; }
 .jv-content h3 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 800; font-size: 32px; text-transform: uppercase;
-  color: #1A2E44; margin-bottom: 16px;
+  color: #1A2E44; margin-bottom: 16px; overflow-wrap: break-word;
 }
 .jv-content p { font-size: 15px; font-weight: 300; color: var(--text-body); line-height: 1.8; margin-bottom: 14px; }
 .jv-badge {
@@ -778,7 +779,7 @@ section { padding: 100px 60px; }
 .form-group select,
 .form-group textarea {
   background: #F7FAFD; border: 1px solid var(--border);
-  color: #2C3E50; padding: 13px 15px;
+  color: #2C3E50; padding: 13px 15px; min-width: 0; width: 100%;
   font-family: "Barlow", sans-serif; font-size: 14px;
   outline: none; transition: border-color 0.2s; resize: vertical; -webkit-appearance: none;
 }
