@@ -279,6 +279,21 @@ section { padding: 100px 60px; }
 .ticker-dot { width: 4px; height: 4px; background: rgba(255,255,255,0.4); border-radius: 50%; flex-shrink: 0; }
 @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
+/* ── PARTNERSHIPS ── */
+.partnerships { background: var(--navy-mid); text-align: center; }
+.partnership-grid {
+  display: flex; flex-direction: column; gap: 24px;
+  margin-top: 48px;
+}
+.partnership-card {
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 16px rgba(46,109,180,0.08);
+  overflow: hidden; line-height: 0;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.partnership-card:hover { box-shadow: 0 8px 32px rgba(46,109,180,0.16); transform: translateY(-2px); }
+.partnership-card img { width: 100%; height: auto; display: block; }
+
 /* ── ABOUT TEASER / ABOUT PAGE ── */
 .about {
   background: var(--navy-mid);
